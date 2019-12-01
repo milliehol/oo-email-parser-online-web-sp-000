@@ -4,6 +4,10 @@
 # or whitespace (' ').
 class EmailAddressParser
 
+attr_accessor email
 
+initialize(email)
+@email = email
+end
 
 end
