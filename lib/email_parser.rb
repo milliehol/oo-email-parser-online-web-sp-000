@@ -6,8 +6,13 @@ class EmailAddressParser
 
 attr_accessor email
 
-initialize(email)
-@email = email
+def initialize(email)
+   @name = name
+   @url = url
+   @location = location
+   @position = position
+   @@all << self
+ end
 
 
 end
