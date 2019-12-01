@@ -10,16 +10,11 @@ attr_accessor :email
 
 def initialize(email)
    @email = email
-   @@all << self
  end
 
  def parse
-   @@emails = []
-@@all.each do |email|
-  if email.space = true
-    @@emails << email
-  elsif email
-
+   @@all = @email.split(/[, ]/).uniq
+   @@all
  end
 
 
