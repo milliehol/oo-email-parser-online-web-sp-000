@@ -8,6 +8,6 @@ attr_accessor email
 
 initialize(email)
 @email = email
-end
+
 
 end
