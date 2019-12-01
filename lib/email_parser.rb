@@ -4,13 +4,12 @@
 # or whitespace (' ').
 class EmailAddressParser
 
-attr_accessor email
+attr_accessor :email
+
+@all = []
 
 def initialize(email)
-   @name = name
-   @url = url
-   @location = location
-   @position = position
+   @email = email
    @@all << self
  end
 
