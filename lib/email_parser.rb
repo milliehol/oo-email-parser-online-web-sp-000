@@ -14,6 +14,7 @@ def initialize(email)
 
  def parse
    @@all = @email.split(/[, ]/).uniq
+   @@all.reject! {|element| element.empty?}
    @@all
  end
 
