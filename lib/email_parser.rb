@@ -19,7 +19,7 @@ def initialize(email)
   if email.space = true
     @@emails << email
   elsif email
-    
+
  end
 
 
