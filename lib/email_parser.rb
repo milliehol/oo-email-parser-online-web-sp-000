@@ -14,6 +14,7 @@ def initialize(email)
  end
 
  def parse(email)
+@@all << email
 @@all
  end
 
